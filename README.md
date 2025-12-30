@@ -41,7 +41,7 @@ Your task is to write unit tests for code, provided in file `index.ts`.
 
 ### **Simple tests**
 
-Write unit tests for the `simpleCalculator` function, which performs basic mathematical operations - addition, subtraction, division, multiplication, and exponentiation. Your task is to verify that the operations are executed correctly and that the function returns `null` for invalid input.
+Write unit tests for the `simpleCalculator` function, which performs (выполняет) basic mathematical operations - addition - `+`, subtraction - `-`, division - `/`, multiplication - `*`, and exponentiation - `возведение в степень`. Your task is to verify that the operations are executed correctly and that the function returns `null` for invalid input.
 
 Write your tests in `src/01-simple-tests/index.test.ts`.
 
