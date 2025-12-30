@@ -1,4 +1,3 @@
-// Uncomment the code below and write your tests
 import { simpleCalculator, Action } from './index';
 
 describe('simpleCalculator tests', () => {
@@ -23,7 +22,11 @@ describe('simpleCalculator tests', () => {
   });
 
   test('should exponentiate two numbers', () => {
-    const result = simpleCalculator({ a: 5, b: 3, action: Action.Exponentiate });
+    const result = simpleCalculator({
+      a: 5,
+      b: 3,
+      action: Action.Exponentiate,
+    });
     expect(result).toBe(125);
   });
 
