@@ -74,7 +74,7 @@ Write your tests in `src/04-test-class/index.test.ts`.
 
 ### **Partial mocking**
 
-Your task is to utilize the Jest API to partially mock the contents of a module.
+Your task is to utilize the Jest API to partially mock the contents of a module (необходимо частично мокнуть содержимое модуля).
 
 Write your tests in `src/05-partial-mocking/index.test.ts`.
 
