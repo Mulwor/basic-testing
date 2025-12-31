@@ -66,7 +66,7 @@ Write your tests in `src/03-error-handling-async/index.test.ts`.
 
 ### **Testing class**
 
-Your task is to test a class representing a bank account that implements corresponding operations. Please note that some methods of the class invoke others, some operations result in errors, and the implementation is asynchronous and involves the native JS API. These aspects should be taken into account when writing the tests.
+Your task is to test a class representing a bank account that implements corresponding operations. Please note that some methods of the class invoke others, some operations result in errors, and the implementation is asynchronous and involves the native JS API. These aspects should be taken into account when writing the tests. - Ваша задача - протестировать класс, представляющий банковский счет, который реализует соответствующие операции. Пожалуйста, обратите внимание, что некоторые методы класса вызывают другие, некоторые операции приводят к ошибкам, а реализация асинхронна и использует собственный JS API. Эти аспекты следует учитывать при написании тестов.
 
 Write your tests in `src/04-test-class/index.test.ts`.
 
