@@ -58,7 +58,7 @@ Write your tests in `src/02-table-tests/index.test.ts`.
 
 ### **Error handling & async**
 
-Your task is to test functions that work asynchronously/throw/reject exceptions..
+Your task is to test functions that work asynchronously/throw/reject exceptions.. - Ваша задача - протестировать функции, которые работают асинхронно/ генерируют/отклоняют исключения..
 
 Write your tests in `src/03-error-handling-async/index.test.ts`.
 
