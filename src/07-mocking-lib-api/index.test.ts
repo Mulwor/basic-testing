@@ -1,17 +1,16 @@
-// Uncomment the code below and write your tests
-/* import axios from 'axios';
-import { throttledGetDataFromApi } from './index'; */
+import axios from 'axios';
+import { throttledGetDataFromApi } from './index';
 
 describe('throttledGetDataFromApi', () => {
   test('should create instance with provided base url', async () => {
-    // Write your test here
+    // Необходимо создать instance с указанным базовым URL-адресом
   });
 
   test('should perform request to correct provided url', async () => {
-    // Write your test here
+    // Необходимо выполнить запрос на корректный URL-адрес
   });
 
   test('should return response data', async () => {
-    // Write your test here
+    // Должен вернуть данные с ответа
   });
 });

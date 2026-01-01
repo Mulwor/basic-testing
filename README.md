@@ -41,7 +41,7 @@ Your task is to write unit tests for code, provided in file `index.ts`.
 
 ### **Simple tests**
 
-Write unit tests for the `simpleCalculator` function, which performs (выполняет) basic mathematical operations - addition - `+`, subtraction - `-`, division - `/`, multiplication - `*`, and exponentiation - `возведение в степень`. Your task is to verify that the operations are executed correctly and that the function returns `null` for invalid input.
+Write unit tests for the `simpleCalculator` function, which performs basic mathematical operations - addition, subtraction, division, multiplication, and exponentiation. Your task is to verify that the operations are executed correctly and that the function returns `null` for invalid input.
 
 Write your tests in `src/01-simple-tests/index.test.ts`.
 
@@ -49,7 +49,7 @@ Write your tests in `src/01-simple-tests/index.test.ts`.
 
 ### **Table tests**
 
-Your task is to rewrite the tests written in the previous task using the table-driven testing approach, utilizing the appropriate Jest API. - Перепишите тесты из первой задачи придерживаясь table-driven testing
+Your task is to rewrite the tests written in the previous task using the table-driven testing approach, utilizing the appropriate Jest API.
 
 Write your tests in `src/02-table-tests/index.test.ts`.
 
@@ -58,7 +58,7 @@ Write your tests in `src/02-table-tests/index.test.ts`.
 
 ### **Error handling & async**
 
-Your task is to test functions that work asynchronously/throw/reject exceptions.. - Ваша задача - протестировать функции, которые работают асинхронно/ генерируют/отклоняют исключения..
+Your task is to test functions that work asynchronously/throw/reject exceptions.
 
 Write your tests in `src/03-error-handling-async/index.test.ts`.
 
@@ -66,7 +66,7 @@ Write your tests in `src/03-error-handling-async/index.test.ts`.
 
 ### **Testing class**
 
-Your task is to test a class representing a bank account that implements corresponding operations. Please note that some methods of the class invoke others, some operations result in errors, and the implementation is asynchronous and involves the native JS API. These aspects should be taken into account when writing the tests. - Ваша задача - протестировать класс, представляющий банковский счет, который реализует соответствующие операции. Пожалуйста, обратите внимание, что некоторые методы класса вызывают другие, некоторые операции приводят к ошибкам, а реализация асинхронна и использует собственный JS API. Эти аспекты следует учитывать при написании тестов.
+Your task is to test a class representing a bank account that implements corresponding operations. Please note that some methods of the class invoke others, some operations result in errors, and the implementation is asynchronous and involves the native JS API. These aspects should be taken into account when writing the tests.
 
 Write your tests in `src/04-test-class/index.test.ts`.
 
@@ -74,7 +74,7 @@ Write your tests in `src/04-test-class/index.test.ts`.
 
 ### **Partial mocking**
 
-Your task is to utilize the Jest API to partially mock the contents of a module (необходимо частично мокнуть содержимое модуля).
+Your task is to utilize the Jest API to partially mock the contents of a module
 
 Write your tests in `src/05-partial-mocking/index.test.ts`.
 
@@ -82,7 +82,7 @@ Write your tests in `src/05-partial-mocking/index.test.ts`.
 
 ### **Mocking Node.js API**
 
-Your task is to test the proper usage of the Node.js API based on commonly used APIs such as the `fs` module, as well as `setTimeout` and `setInterval`. Remember that the tests should not interact with the actual file system and should not rely on real-time! - Ваша задача - протестировать правильное использование Node.js API, основанного на широко используемых API, таких как модуль `fs`, а также `setTimeout` и `setInterval`. Помните, что тесты не должны взаимодействовать с реальной файловой системой и не должны зависеть от реального времени!
+Your task is to test the proper usage of the Node.js API based on commonly used APIs such as the `fs` module, as well as `setTimeout` and `setInterval`. Remember that the tests should not interact with the actual file system and should not rely on real-time!
 
 Write your tests in `src/06-mocking-node-api/index.test.ts`.
 
