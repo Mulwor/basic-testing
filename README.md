@@ -82,7 +82,7 @@ Write your tests in `src/05-partial-mocking/index.test.ts`.
 
 ### **Mocking Node.js API**
 
-Your task is to test the proper usage of the Node.js API based on commonly used APIs such as the `fs` module, as well as `setTimeout` and `setInterval`. Remember that the tests should not interact with the actual file system and should not rely on real-time!
+Your task is to test the proper usage of the Node.js API based on commonly used APIs such as the `fs` module, as well as `setTimeout` and `setInterval`. Remember that the tests should not interact with the actual file system and should not rely on real-time! - Ваша задача - протестировать правильное использование Node.js API, основанного на широко используемых API, таких как модуль `fs`, а также `setTimeout` и `setInterval`. Помните, что тесты не должны взаимодействовать с реальной файловой системой и не должны зависеть от реального времени!
 
 Write your tests in `src/06-mocking-node-api/index.test.ts`.
 
